@@ -17,8 +17,56 @@
     <main>
         <article>
             <h3 class="titulo">Fullstack Developer</h3>
-            <p>Estoy estudiando como poedr crear una pagina web</p>
-            <p>Estos son los primeros pasos que estoy dando en html y css</p>
+            <p>Al abrir la terminal podemos comenzar a crear carpetas o archivos donde nosotros queramos. Para ello hay comandos, un
+            ejemplo de crear una carpeta en el escritorio y luego entrar a esa carpeta y crear archivos es el siguiente:
+                <br> <br />
+            MacBook-Pro:~ macbook$ cd “desktop” esto nos hace posicionarse dentro del escritorio
+                <br> <br />
+            MacBook-Pro:~ macbook$ mkdir “nombre de la carpeta”
+                <br> <br />
+            MacBook-Pro:~ macbook$ cd “nombre de la carpeta” esto hace que entremos a la carpeta
+                <br> <br />
+            MacBook-Pro:~ macbook$ touch “index.html” con esto creamos el archivo, puede ser .ccs</p>
+                <br> <br />
+                <br> <br />
+            <p>Estos son los pasos para crear dentro de la terminal.
+            Ahora cerramos la terminal y sobre el VSC arrastramos la carpeta para que se abra en el mismo.
+            Acá trabajamos en html y css normalmente y cuando queremos mandar a un repositorio en git, hacemos los siguientes pasos
+            en la terminal:
+                <br>  <br />
+            MacBook-Pro:~ macbook$ git init
+                <br>  <br />
+            MacBook-Pro:~ macbook$ git add . al poner el punto toma “todos los archivos” o bien se puede poner
+                <br> <br />
+            MacBook-Pro:~ macbook$ git add index.html
+                <br> <br />
+            MacBook-Pro:~ macbook$ git add estilos.css
+                <br> <br />
+            MacBook-Pro:~ macbook$ git commit -m “mensaje que queramos dejar”
+            [master (root-commit) 2c24aa5] aca te muestra el mensaje
+            2 files changed, 54 insertions(+)
+            create mode 100644 estilos.ccs
+            create mode 100644 index.html
+            <br> <br />
+            <br> <br />
+            En este paso, lo vamos a vincular al repo de git, creamos el repo SIN README y seguimos las indicaciones:
+                <br> <br />
+            MacBook-Pro-de-Hernan:~ macbook$ git remote add origin https://github.com/hernancolazo/aaaa.git
+                <br> <br />
+            MacBook-Pro:~ macbook$ git branch -M main
+                <br> <br />
+            MacBook-Pro:~ macbook$ git push origin main
+            </p>
+            <p>De acá en adelante, trabajamos y todo lo que hacemos para subir el repositorio es:
+                <br> <br />
+                MacBook-Pro:~ macbook$ git init
+                <br> <br />
+                MacBook-Pro:~ macbook$ git add .
+                <br> <br />
+                MacBook-Pro:~ macbook$ git commit -m “mensaje que queramos dejar”
+                <br> <br />
+                MacBook-Pro:~ macbook$ git push origin main
+            </p>
         </article>
 
         <article>
