@@ -1,0 +1,40 @@
+body{
+    background-color: chocolate;
+}
+
+.titulo{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+#principal{
+    font-size: 6em;
+}
+
+.logo{
+    width: 200px;
+}
+
+.card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 2em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+.card:hover{
+    background-color: rgb(253, 2, 165);
+}
+p{
+    color: darkblue;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+}
+
+
+/* idealmente sería bueno ir acomodando todos los bloque por algun orden, para no perdernos en el código /*
