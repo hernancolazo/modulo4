@@ -8,35 +8,58 @@ body{
 }
 
 #principal{
-    font-size: 6em;
+    font-size: 4em;
 }
 
 .logo{
     width: 200px;
+    height: 200px;
 }
 
 .card{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 2em 1em 1em;
+    padding: 1em 1em 2em 1em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
 }
 .card:hover{
-    background-color: rgb(253, 2, 165);
+    background-color: rgb(164, 57, 127);
 }
 p{
     color: darkblue;
 }
 
 #titulos{
-    border: 2px solid black;
-    width: 65vw;
+    width: 60vw;
     margin: auto;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 p{
     color: rgb(45, 45, 45);
+}
+
+#cards-contenedor{
+    background-color: rgb(116, 51, 83);
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 5px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
 }
 
 /* idealmente sería bueno ir acomodando todos los bloque por algun orden, para no perdernos en el código /*
