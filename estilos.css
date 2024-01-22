@@ -1,10 +1,14 @@
-body{
-    background-color: rgb(177, 101, 47);
+body {
+
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
 }
 
 .titulo{
     font-size: 3em;
-    color: rgb(255, 255, 255);
+    color: rgb(24, 23, 23);
+    font-family: 'Arial', sans-serif;
 }
 
 #principal{
@@ -29,10 +33,13 @@ body{
 
 }
 .card:hover{
-    background-color: rgb(164, 57, 127);
+    background-color: rgb(158, 26, 26);
 }
 p{
     color: darkblue;
+}
+.lista{
+    padding: 2em;
 }
 
 #titulos{
@@ -48,7 +55,7 @@ p{
 }
 
 #cards-contenedor{
-    background-color: rgb(116, 51, 83);
+    background-color: rgb(165, 164, 164);
     width: 85vw;
     margin: auto;
     margin-top: 2em;
@@ -58,8 +65,16 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
+/* width es para decir el ancho de la pantalla
+   margin: auto; para centrarlo
+   margin-top: 2em para que se despegue de arriba
+   border es para ponerle un borde de color 
+   border-radius es para poder redondear las puntas
+   padding hace que el contenido se despegue don contenedor
+   AHORA: display: flex; es para comenzar a posicionar los elementos que estan dentro del contenedor. Esto hace que de ahora en más el contenedor siga lo "logica de Flex" y automaticamente pone los objetos en horozontal.
+   Pero si le queremos poner dirección por las dudas, le tenemos que poner: 
+   flex-direction: row;
+   justify-content: space-between; es para separar de los costados y entre si los elementos/*
 
 /* idealmente sería bueno ir acomodando todos los bloque por algun orden, para no perdernos en el código /*
