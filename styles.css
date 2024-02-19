@@ -1,5 +1,5 @@
 body {
-
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 20px;
@@ -7,8 +7,7 @@ body {
 
 .titulo{
     font-size: 3em;
-    color: rgb(24, 23, 23);
-    font-family: 'Arial', sans-serif;
+    color: rgb(107, 63, 204);
     margin: auto;
 }
 
@@ -41,6 +40,8 @@ p{
 }
 .lista{
     padding: 2em;
+    color: #4560d8;
+
 }
 
 #titulos{
